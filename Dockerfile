@@ -15,4 +15,4 @@ COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
 
-EXPOSE 9000
+EXPOSE 80

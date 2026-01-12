@@ -5,5 +5,5 @@ services:
     image: php-app:latest
     container_name: php-app
     ports:
-      - "9001:9000"
+      - "8082:80"
     restart: always

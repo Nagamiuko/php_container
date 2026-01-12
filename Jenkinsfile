@@ -31,7 +31,7 @@ pipeline {
           docker rm php-app || true
           docker run -d \
             --name php-app \
-            -p 9001:9000 \
+            -p 8082:80 \
              php-app:latest
         '''
       }
