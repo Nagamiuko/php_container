@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  php-app:
+    image: php-app:latest
+    container_name: php-app
+    ports:
+      - "9001:9000"
+    restart: always
